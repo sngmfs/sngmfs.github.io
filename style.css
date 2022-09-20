@@ -19,11 +19,11 @@ a:active {
 }
 
 img {
-    min-width: 40vw;
+    min-width: 80vw;
     max-width: 95vw;
 }
 
 video {
-    min-width: 40vw;
+    min-width: 80vw;
     max-width: 95vw;
 }
