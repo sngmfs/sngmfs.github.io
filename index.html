@@ -1,1 +1,30 @@
-This is sngmfs.github.io
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>sngmfs.github.io</title>
+        <link rel="stylesheet" type="text/css" href="/style.css"/>
+    </head>
+    <body id="bd" style="display: none;">
+        <h1>sngmfs.github.io</h1>
+        <p><a href="..">返回上一級</a></p>
+        
+            
+            <p><a href=".git">.git</a></p>
+            
+        
+            
+            <p><a href="a">a</a></p>
+            
+        
+    </body>
+    <script>
+        (() => {
+            if (window.location.hash === "#reveal") {
+                document.getElementById("bd").setAttribute("style", "");
+                for (let link of document.getElementsByTagName("a")) {
+                    link.setAttribute("href", link.getAttribute("href") + "#reveal");
+                }
+            }
+        })();
+    </script>
+</html>
